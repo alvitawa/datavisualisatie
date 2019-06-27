@@ -190,7 +190,7 @@ def pie_yy():
         "type": "pie"
         }],
     "layout": {
-            "title":"Number of Universities 2015-2016 Asia-USA",
+            "title":"Aantal universiteiten op wereldranglijst in 2015-2016 Asia-USA",
             "grid": {"rows": 1, "columns": 2},
             "annotations": [
                 {
