@@ -142,7 +142,7 @@ def barplot_ranks():
         barmode='group',
         
         title=go.layout.Title(
-            text='Vergeljking tussen Amerikaanse en Aziatische universiteiten over de jaren',
+            text='Gemiddelde universiteitspercentages van Azië vergeleken met de V.S.',
             
         ),
         xaxis=go.layout.XAxis(
@@ -153,7 +153,7 @@ def barplot_ranks():
         ),
         yaxis = go.layout.YAxis(
             title=go.layout.yaxis.Title(
-                text='Gemiddelde world ranking'
+                text='Gemiddeld beter dan %'
             )
         )
     )
@@ -264,7 +264,7 @@ def scatter_2011():
         barmode='group',
         
         title=go.layout.Title(
-            text='Alleen universiteiten die in 2011 al op de database zaten',
+            text='Gemiddelde universiteitspercentages van universiteiten die in 2011 al op de database zaten.',
             
         ),
         xaxis=go.layout.XAxis(
@@ -280,7 +280,7 @@ def scatter_2011():
     #         gridwidth=5,
     #         gridcolor='black',
             title=go.layout.yaxis.Title(
-                text='Gemiddelde precentile'
+                text='Gemiddeld beter dan %'
             ),
     #         range=[2014, 2017]
         )
